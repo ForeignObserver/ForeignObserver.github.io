@@ -1,3 +1,3 @@
 # foreignobserver.github.io
 
-# Foreign Observer Website
+## Foreign Observer Website
