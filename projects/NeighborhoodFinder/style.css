@@ -5,7 +5,6 @@ body {
   background-image: url("photo/bostonBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
 }
 
 main {
@@ -32,6 +31,19 @@ h4 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   padding-bottom: 2%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
 }
 
 a {
@@ -84,23 +96,6 @@ header {
 
 #button:hover {
   background-color: rgba(255, 215, 0, 1);
-}
-
-.choice .tooltip {
-  visibility: hidden;
-  position: absolute;
-  z-index: 2;
-  width: 100px;
-  top: 100%;
-  left: 50%;
-  margin-left: -50px;
-  background-color: rgba(102, 204, 255, .8);
-  border-radius: 3px;
-}
-
-.choice:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
 }
 
 .outputSection {
