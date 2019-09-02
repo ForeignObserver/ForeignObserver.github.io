@@ -36,6 +36,11 @@
          font-family: "Crimson Pro", serif;
        }
 
+       a {
+         color: #b50418;
+         text-decoration: none;
+       }
+
 
       .questionno {
         color: #696969;
@@ -142,6 +147,77 @@
         line-height: 1.7em;
         text-align: center;
       }
+
+      /* For footer */
+
+      footer {
+        background-color: #F0F0F0;
+        margin-top: 4%;
+        padding-top: 3%;
+        /* background-color: #ffffe6; */
+      }
+
+      .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 150px;
+        column-gap: 15px;
+        row-gap: 1em;
+      }
+
+      .teasePhoto {
+        width: 275px;
+        height: 150px;
+        border-radius: 3%;
+      }
+
+      .footerText {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+        font-size: 22px;
+        font-family: "Crimson Pro", sans-serif;
+        line-height: 2rem;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .uppercase {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 3%;
+      }
+
+      .red {
+        color: #b50418;
+      }
+
+      .twitter-share-button {
+        vertical-align: text-bottom !important;
+      }
+
+      .fologo {
+        width: 250px;
+      }
+
+      #calltoaction {
+        padding-top: 3%;
+        text-align: center;
+        color: #b50418;
+      }
+
+      #definition {
+        padding-bottom: 2%;
+        text-align: center;
+        color: #808080;
+        font-family: "Crimson Pro", serif;
+
+      }
+
     </style>
 
   </head>
@@ -256,12 +332,32 @@
       <div id="cookie" hidden><img src ="photo/cookie.png" width="100px"  height="100px"></div><br>
       <p>All visa processes require careful study and even consultation from professionals. Northeastern University’s Office of Global Services offers H-1B visa sessions for interested students on a regular basis. Sign up to their calendar to see upcoming sessions available.</p>
       <p>Subsribe to the Foreign Observer's newsletter or follow us on social media to read more news about international students experience in the U.S.</p>
-      <p>Here are some more of our stories you might be interested in</p>
-      <div class="credit">
-      <p>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
-      <p>Background photo by  <a href = "https://unsplash.com/@lucassankey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lucas Sankey</a> on <a href = "https://unsplash.com/search/photos/american-flag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-      </div>
     </div>
+      <section class="footer">
+        <footer>
+          <div class="footerText">
+            <p>Did you enjoy this project? <span class="bold">Spread the word.</span><p>
+            <div class="social">
+              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <div class="fb-like" data-href="https://foreignobserver.github.io" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            </div>
+
+            <p class="uppercase"><span class="red">Xplore</span> more on our site</p>
+            <div class="gridcontainer">
+              <div><img class="teasePhoto" src="photo/flag1.jpg"></div>
+              <div><img class="teasePhoto" src="photo/bostonBackground.jpg"></div>
+              <div>So you think you know the H1B? Quiz</div>
+              <div>Find your ideal neighborhood in Boston</div>
+            </div>
+            <img class="fologo" src="photo/logo.png">
+            <div class="credit">
+            <p>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+            <p>Background photo by  <a href = "https://unsplash.com/@lucassankey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lucas Sankey</a> on <a href = "https://unsplash.com/search/photos/american-flag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+            </div>
+          </div>
+          <p id="definition">Xplore is a project by the <a href="https://www.foreignobserver.net">Foreign Observer</a> magazine that explores issues and trends affecting international students through data.</p>
+        </footer>
+      </section>
     <script src="quiz.js"></script>
   </body>
 

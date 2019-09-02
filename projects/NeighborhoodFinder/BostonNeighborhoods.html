@@ -14,11 +14,11 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <div id="background"></div>
   <header>
     <a href="https://foreignobserver.net/"><img src="photo/foexplore6.png" id="fologo"></a>
   </header>
   <main>
-
     <div id="inputPage">
       <h1>What's your ideal Boston neighborhood?</h1>
       <h4>By <a href="https://haminhta.github.io/">Ha Ta</a></h4>
@@ -50,9 +50,9 @@
       </div>
       <br>
       <button id="button" type="button">Show me my neighborhood!</button>
-      <footer>
+      <div id="attr">
         <p>Background photo by  <a href = "https://unsplash.com/@anthonydelanoix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony DELANOIX</a> on <a href = "https://unsplash.com/search/photos/boston">Unsplash</a></p>
-      </footer>
+      </div>
     </div>
 
     <div id="resultPage" hidden>
@@ -67,8 +67,27 @@
         </div>
       </div>
     </div>
-
   </main>
+
+  <footer id="footer" hidden>
+    <div class="footerText">
+      <p>Did you enjoy this project? <span class="bold">Spread the word.</span><p>
+      <div class="social">
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="fb-like" data-href="https://foreignobserver.github.io" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+      </div>
+      <p class="uppercase"> Xplore more on our site</p>
+      <div class="gridcontainer">
+        <div><img class="teasePhoto" src="photo/flag1.jpg"></div>
+        <div><img class="teasePhoto" src="photo/bostonBackground.jpg"></div>
+        <div>So you think you know the H-1B? - Quiz</div>
+        <div>Find your ideal Boston neighorbood</div>
+      </div>
+      <img class="fologo" src="photo/logo.png">
+    </div>
+    <p id="definition">Xplore is a project by the <a href="https://www.foreignobserver.net">Foreign Observer</a> magazine that explores issues and trends affecting international students through data.</p>
+  </footer>
+
   <script src="inputPage.js"></script>
   <script src="Boston_Neighborhoods.geojson"></script>
   <script src="MBTAGeoJSON.js"></script>

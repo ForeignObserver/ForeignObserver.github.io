@@ -20,6 +20,7 @@ function setUpMap(neighborhood) {
 document.getElementById("button").addEventListener("click", function() {
   document.getElementById("inputPage").hidden = true;
   document.getElementById("resultPage").hidden = false;
+  document.getElementById("footer").hidden = false;
 
   let result = calculateResult();
   setUpMap(result);
