@@ -41,7 +41,7 @@ function addNeighborhoodInfo(neighborhood) {
 
 /* Add all data to map for the given neighborhood */
 function addNeighborhoodDataToMap(neighborhood) {
-  let boundStyle = { "color": "#ffff00" };
+  let boundStyle = { "color": "#ff0000" };
   let geoJSONFeature = getNeighborhoodBound(neighborhood);
   if (geoJSONFeature) {
     L.geoJSON(geoJSONFeature, { style: boundStyle }).addTo(map);

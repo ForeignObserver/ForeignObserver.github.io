@@ -125,10 +125,21 @@ header {
   padding: 15px;
 }
 
+#resultTitle {
+  color: #d3242a;
+}
+
 #infoSection {
   height: 500px;
   background-color: rgba(224, 224, 224, .75);
   overflow: scroll;
+  padding: 40px;
+  line-height: 2em;
+}
+
+#neighborhoodInfoTitle {
+  font-weight: bold;
+  padding-bottom: 1em;
 }
 
 #attribution {
