@@ -163,7 +163,7 @@ img {
 
 .top-box-a {
   grid-area: top-box-a;
-  background: url("photo/pic2.jpg");
+  background: url("photo/flag.jpg");
   background-color: rgba(13, 13, 13, 0.40) !important;
   background-blend-mode: color;
   background-size: cover;
